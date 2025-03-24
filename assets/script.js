@@ -11,6 +11,6 @@ function getComputerChoice () {
     return choice
 }
 
-let a = getComputerChoice();
+let computerRandomChoice = getComputerChoice();
 
-console.log(a)
+console.log(computerRandomChoice)
