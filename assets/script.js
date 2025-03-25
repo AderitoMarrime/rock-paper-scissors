@@ -22,3 +22,6 @@ function getHumanChoice() {
 let humanChoice = getHumanChoice()
 
 console.log(humanChoice)
+
+let computerScore = 0
+let humanScore = 0
