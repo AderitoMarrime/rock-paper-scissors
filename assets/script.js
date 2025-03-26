@@ -11,17 +11,9 @@ function getComputerChoice () {
     return choice
 }
 
-let computerRandomChoice = getComputerChoice();
-
-console.log(computerRandomChoice)
-
 function getHumanChoice() {
     return window.prompt("choose an option between rock, paper or scissors")
 }
-
-let humanChoice = getHumanChoice()
-
-console.log(humanChoice)
 
 let computerScore = 0
 let humanScore = 0
