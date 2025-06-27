@@ -37,7 +37,7 @@ function playGame () {
         } else if (computerChoice === "paper" && humanChoice === "paper") {
             results.textContent = "It's a tie";
         } else if (computerChoice === "paper" && humanChoice === "scissors") {
-            results.textContent = "ou win! Scissors beats Paper";
+            results.textContent = "You win! Scissors beats Paper";
             humanScore++
         } else if (computerChoice === "scissors" && humanChoice === "rock") {
             results.textContent = "You win! Rock beats Scissors";
