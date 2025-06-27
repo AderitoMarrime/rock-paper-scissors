@@ -11,10 +11,6 @@ function getComputerChoice () {
     return choice
 }
 
-function getHumanChoice() {
-    return window.prompt("choose an option between rock, paper or scissors")
-}
-
 function playGame () {
     let computerScore = 0
     let humanScore = 0
