@@ -38,16 +38,16 @@ p {
 }
 
 .main h1 {
-    font-size: clamp(1.8rem, 5vw - 0.4rem, 4rem);
+    font-size: clamp(1.2rem, 6vw - 0.4rem, 4rem);
 }
 
 .guide h2,
 .text{
     color: #FEFFFE;
-    font-size: clamp(1.5rem, 3vw - 0.4rem, 3rem);
+    font-size: clamp(1.1rem, 5vw - 0.4rem, 3rem);
 }
 .guide {
-    font-size: clamp(1.2rem, 2vw - 0.4rem, 2rem);
+    font-size: clamp(1rem, 4vw - 0.4rem, 2rem);
 }
 
 .buttons {
