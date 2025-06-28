@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #172121;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    width: 100%;
+    background-color: #444554;
+}
+
+h1,
+h2,
+p {
+    color: #FEFFFE;
+}
+
+.main h1 {
+    font-size: clamp(1.8rem, 5vw - 0.4rem, 4rem);
+}
+
+.guide h2,
+.text{
+    color: #FEFFFE;
+    font-size: clamp(1.5rem, 3vw - 0.4rem, 3rem);
+}
+.guide {
+    font-size: clamp(1.2rem, 2vw - 0.4rem, 2rem);
+}
+
+.buttons {
+    display: flex;
+    column-gap: 30px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#results,
+#finalresult {
+    font-weight: bold;
+}
+
+button {
+    max-width: 160px;
+    width: 100%;
+    font-size: clamp(1.2rem, 16vw, 6rem);
+    background-color: #7F7B82;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    padding: 4px;
+}
+
+button:hover,
+button:active {
+    background-color: #7f7b82bb;
+}

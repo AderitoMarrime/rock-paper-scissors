@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-    <button class="humanSelection" value="rock">Rock</button>
-    <button class="humanSelection" value="paper">Paper</button>
-    <button class="humanSelection" value="scissors">Scissors</button>
-    <div id="results"></div>
-    <div id="score"></div>
-    <div id="finalresult"></div>
+    <div class="main">
+        <h1>Rock, Paper And Scissors</h1>
+        <div class="guide">
+            <h2>Choose an option</h2>
+            <p>First to reach 5 points wins</p>
+        </div>
+        <div class="buttons">
+            <button class="humanSelection" value="rock">✊</button>
+            <button class="humanSelection" value="paper">✋</button>
+            <button class="humanSelection" value="scissors">✌️</button>
+        </div>
+        <div class="text">
+            <div id="results"></div>
+            <div id="score"></div>
+            <div id="finalresult"></div>
+        </div>
+    </div>
     <script src="assets/script.js"></script>
 </body>
 </html>
