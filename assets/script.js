@@ -49,7 +49,7 @@ function playGame () {
             results.textContent = "It's a tie";
         }
 
-        score.textContent = `Computer Score:${computerScore} | Human Score:${humanScore}`;
+        score.textContent = `Human Score: ${humanScore} | Computer Score: ${computerScore}`;
 
         if (humanScore == 5) {
             results.textContent = ""
